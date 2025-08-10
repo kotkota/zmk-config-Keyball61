@@ -18,5 +18,5 @@ include:
   - board: nrfmicro_13
     shield: keyball61_right
     snippet: studio-rpc-usb-uart
-  - board: nice_nano_v2
+  - board: nrfmicro_13
     shield: settings_reset
