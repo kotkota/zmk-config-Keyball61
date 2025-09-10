@@ -121,7 +121,7 @@
             label = "System";
             bindings = < LAYER_FROM64( \
 &trans, &trans, &trans, &trans, &trans, &trans,                                          &trans, &trans, &trans, &trans, &trans, &trans,
-&none, &none, &none, &none, &none, &none,                                              &bt BT_PRV, &bt BT_NXT, &none, &none, &none, &none,
+&none, &none, &none, &none, &none, &none,                                              &bt BT_PRV, &bt BT_NXT, &none, &none, &none, &out OUT_TOG,
 &none, &none, &none, &none, &none, &none,                                              &bt BT_SEL 0, &bt BT_SEL 1, &bt BT_SEL 2, &none, &none, &ext_power EP_OFF,
 &soft_off, &none, &none, &none, &none, &none, &trans, &trans,                         &bt BT_DISC 0, &bt BT_DISC 1, &bt BT_DISC 2, &bt BT_CLR_ALL, &none, &studio_unlock,
 &trans, &trans, &trans, &trans, &upd_fw_l, &bootloader, &none, &none,                  &bootloader, &upd_fw_r, &trans, &trans, &trans, &trans
