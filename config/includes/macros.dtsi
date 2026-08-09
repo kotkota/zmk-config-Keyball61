@@ -51,13 +51,19 @@
       ru_on: to_ru {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
-          bindings = <&tog_on 1 &kp LS(LA(LC(LG(N))))>;
+          bindings = <&tog_off VST &tog_on RU &kp LS(LA(LC(LG(N))))>;
       };
 
       ru_off: to_en {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
-          bindings = <&tog_off RU &kp LS(LA(LC(LG(M))))>;
+          bindings = <&tog_off VST &tog_off RU &kp LS(LA(LC(LG(M))))>;
+      };
+
+      vst_on: to_vst {
+          compatible = "zmk,behavior-macro";
+          #binding-cells = <0>;
+          bindings = <&tog_off RU &tog_on VST &kp LS(LA(LC(LG(N))))>;
       };
 
       tag_open: html_tag_open {
